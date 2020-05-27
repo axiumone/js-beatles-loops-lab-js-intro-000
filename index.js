@@ -24,6 +24,7 @@ function theBeatlesPlay(musicians, instruments) {
   // The function should return the array of new strings containing what
   // instruments each musician plays.
 
+<<<<<<< HEAD
   var facts = [
     "He was the last Beatle to learn to drive",
     "He was never a vegetarian",
@@ -57,3 +58,33 @@ function theBeatlesPlay(musicians, instruments) {
     }
     return arr;
   }
+=======
+
+  function johnLennonFacts(){
+
+  // # * Use a while loop to loop over the facts array and add `"!!!"` to the end of
+  // # every fact.
+
+  // # * Return an array of strings with exclamation points.
+
+  const facts = [
+    "He was the last Beatle to learn to drive",
+    "He was never a vegetarian", "He was a choir boy and boy scout",
+    "He hated the sound of his own voice"
+  ]
+
+  const new_arr = []
+  let i = 0
+
+      while(i < facts.length) {
+      new_arr.push(facts[i] + "!!!")
+      i += 1
+      }
+      return new_arr
+  }
+
+//
+// function iLoveTheBeatles() {
+//
+// }
+>>>>>>> f298aef90549a1ee10a7eae9761d989cefdd2757
